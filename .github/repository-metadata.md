@@ -4,7 +4,7 @@ Use these values in the repository **About** sidebar on GitHub, or run:
 
 ```powershell
 gh repo edit ddunaev247/GrinchCafe `
-  --description "Local Android POS for cafes: terminal, waiter & admin apps. Wi-Fi sync, ESC/POS printing, SQLite, no cloud." `
+  --description "Локальная Android POS для кафе: терминал, официант и админ. Синхронизация по Wi‑Fi, ESC/POS, SQLite, без облака. | Local Android POS for cafes: terminal, waiter & admin apps." `
   --add-topic android --add-topic java --add-topic pos `
   --add-topic sqlite --add-topic escpos --add-topic offline-first `
   --add-topic restaurant --add-topic point-of-sale
@@ -12,7 +12,12 @@ gh repo edit ddunaev247/GrinchCafe `
 
 ## Short description (About)
 
-Local Android POS for cafes: terminal, waiter & admin apps. Wi-Fi sync, ESC/POS printing, SQLite, no cloud.
+**RU:** Локальная Android POS для кафе: терминал, официант и админ. Синхронизация по Wi‑Fi, ESC/POS, SQLite, без облака.
+
+**EN:** Local Android POS for cafes: terminal, waiter & admin apps. Wi-Fi sync, ESC/POS printing, SQLite, no cloud.
+
+**Combined (if one line only):**  
+Локальная Android POS для кафе: терминал, официант и админ. Wi‑Fi, ESC/POS, SQLite, без облака. | Local Android POS for cafes: terminal, waiter & admin apps.
 
 ## Topics
 
