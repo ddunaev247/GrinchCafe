@@ -1,0 +1,58 @@
+# Build outputs
+/build/
+**/build/
+*.apk
+*.aab
+*.dex
+*.class
+
+# Gradle
+.gradle/
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+.cxx/
+.externalNativeBuild/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temp
+*.log
+*.tmp
+*.swp
+*~
+_manual_extract.txt
+
+# Bundled JDK (use local JAVA_HOME instead)
+jdk8/
+
+# Release artifacts copied to project root
+GrinchCafe-debug.apk
+GrinchCafeWaiter-debug.apk
+GrinchCafeAdmin-debug.apk
+GrinchKaraoke-debug.apk
+
+# Manuals, screenshots, menu spreadsheets (local / client data)
+*.docx
+manual_screens/
+*.xlsx
+*.xls
+*.csv
+
+# Secrets
+.env
+.env.*
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+google-services.json
+secrets.properties

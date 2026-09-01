@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.grinchcafe.waiter">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".WaiterApp"
+        android:allowBackup="true"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".TableActivity"
+            android:label="@string/check_items"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity" />
+
+        <activity android:name=".MenuSectionActivity"
+            android:label="@string/select_menu_section"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".TableActivity" />
+
+        <activity android:name=".LunchTypeActivity"
+            android:label="@string/select_lunch_type"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MenuSectionActivity" />
+
+        <activity android:name=".ComplexPickActivity"
+            android:label="@string/lunch_complex"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".LunchTypeActivity" />
+
+        <activity android:name=".MenuPickActivity"
+            android:label="@string/select_menu_item"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MenuSectionActivity" />
+
+    </application>
+</manifest>

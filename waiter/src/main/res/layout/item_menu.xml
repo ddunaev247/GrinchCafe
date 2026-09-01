@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_tile"
+    android:layout_marginBottom="8dp"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:padding="14dp">
+
+    <TextView
+        android:id="@+id/tv_menu_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textPrimary"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_menu_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/textSecondary"
+        android:textSize="13sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_edit_menu"
+            style="@style/SecondaryButton"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:minHeight="36dp"
+            android:text="@string/edit"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btn_delete_menu"
+            style="@style/SecondaryButton"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:minHeight="36dp"
+            android:text="@string/delete"
+            android:textColor="@color/statusBusy"
+            android:textSize="13sp" />
+    </LinearLayout>
+</LinearLayout>

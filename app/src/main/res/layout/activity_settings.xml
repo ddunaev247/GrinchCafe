@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="@dimen/screen_padding">
+
+    <TextView
+        style="@style/PageTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/settings" />
+
+    <TextView
+        android:id="@+id/tv_server_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_tile"
+        android:padding="12dp"
+        android:textColor="@color/textSecondary"
+        android:textSize="13sp" />
+
+    <TextView
+        style="@style/SectionTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/settings_print_section" />
+
+    <Button
+        android:id="@+id/btn_printers"
+        style="@style/PrimaryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/title_printers" />
+
+    <Button
+        android:id="@+id/btn_receipt_categories"
+        style="@style/SecondaryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/receipt_categories_title" />
+
+    <TextView
+        style="@style/SectionTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/settings_tools_section" />
+
+    <Button
+        android:id="@+id/btn_device_info"
+        style="@style/SecondaryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/title_device_info" />
+
+    <Button
+        android:id="@+id/btn_connected_devices"
+        style="@style/SecondaryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/title_connected_devices" />
+</LinearLayout>

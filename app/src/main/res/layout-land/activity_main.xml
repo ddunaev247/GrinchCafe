@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:baselineAligned="false"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="@dimen/sidebar_width"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_header"
+        android:elevation="0dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            style="@style/MainScreenTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="30sp" />
+
+        <TextView
+            style="@style/MainScreenSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/main_subtitle" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/tileStroke" />
+
+        <Button
+            android:id="@+id/btn_menu_admin"
+            style="@style/MainScreenButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/menu_admin" />
+
+        <Button
+            android:id="@+id/btn_reports"
+            style="@style/MainScreenButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/reports" />
+
+        <Button
+            android:id="@+id/btn_settings"
+            style="@style/MainScreenButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/settings" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_tables"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:padding="14dp" />
+</LinearLayout>

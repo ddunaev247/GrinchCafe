@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:id="@+id/btn_add_table_tile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_tile"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:minHeight="@dimen/table_card_min_height"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/instrument_serif_regular"
+            android:text="+"
+            android:textColor="@color/colorPrimary"
+            android:textSize="36sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/inter_semibold"
+            android:text="@string/add_table"
+            android:textColor="@color/textSecondary"
+            android:textSize="13sp" />
+    </LinearLayout>
+</FrameLayout>

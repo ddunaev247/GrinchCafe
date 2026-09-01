@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Спокойный ресторанный стиль, чуть выше контраст -->
+    <color name="brandWhite">#FFF9F2</color>
+    <color name="brandLime">#7A8F5E</color>
+    <color name="brandGreen">#183D30</color>
+    <color name="brandDark">#1E1812</color>
+    <color name="brandTerracotta">#B85338</color>
+
+    <color name="colorPrimary">#183D30</color>
+    <color name="colorPrimaryDark">#122E24</color>
+    <color name="colorAccent">#183D30</color>
+    <color name="background">#E8DFD2</color>
+    <color name="surface">#FFF9F2</color>
+    <color name="textPrimary">#1E1812</color>
+    <color name="textSecondary">#564D43</color>
+    <color name="textOnDark">#FFF9F2</color>
+    <color name="textOnDarkMuted">#D9CFC2</color>
+
+    <color name="statusFree">#356654</color>
+    <color name="statusBusy">#B85338</color>
+    <color name="statusReserved">#7A8F5E</color>
+
+    <color name="tileStroke">#C8B8A4</color>
+    <color name="listDividerSoft">#4D1E1812</color>
+    <color name="shadowSoft">#1A221C16</color>
+    <color name="surfacePressed">#DED2C2</color>
+    <color name="buttonPrimary">#183D30</color>
+    <color name="buttonSecondary">#DDD0BE</color>
+    <color name="buttonSuccess">#356654</color>
+    <color name="buttonSuccessDark">#2A5242</color>
+    <color name="buttonNeutral">#5E564C</color>
+    <color name="buttonNeutralDark">#403A33</color>
+    <color name="buttonDanger">#B85338</color>
+    <color name="infoButtonBg">#E8E0D2</color>
+    <color name="infoButtonText">#183D30</color>
+    <color name="headerGradientEnd">#183D30</color>
+    <color name="surfaceGreenTint">#DEE8DC</color>
+    <color name="surfaceSelected">#D4E2D8</color>
+</resources>
